@@ -27,7 +27,6 @@ export default function RomList({ onSelect, setTitle }: RomListProps) {
 
   return (
     <div className="rom-list">
-      <h2>ROM Hacks</h2>
       {roms.map(rom => (
         <div
           key={rom.url}
