@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pokemon-Rom-Archive/static/css/main.5a2883d3.css",
+    "main.js": "/Pokemon-Rom-Archive/static/js/main.049b8893.js",
+    "index.html": "/Pokemon-Rom-Archive/index.html",
+    "main.5a2883d3.css.map": "/Pokemon-Rom-Archive/static/css/main.5a2883d3.css.map",
+    "main.049b8893.js.map": "/Pokemon-Rom-Archive/static/js/main.049b8893.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a2883d3.css",
+    "static/js/main.049b8893.js"
+  ]
+}
