@@ -1,5 +1,6 @@
 import { QRCodeSVG } from 'qrcode.react';
 import React from 'react';
+import { useWindowSize } from '../hooks/useWindowSize.ts';
 
 interface QRCodeDisplayProps {
   url: string | null;
@@ -7,6 +8,8 @@ interface QRCodeDisplayProps {
 }
 
 export default function QRCodeDisplay({ url, title }: QRCodeDisplayProps) {
+  const { width } = useWindowSize();
+  const qrSize = Math.min(256, (width || 800) * 0.6);
   if (!url) return null;
 
   return (
@@ -15,7 +18,7 @@ export default function QRCodeDisplay({ url, title }: QRCodeDisplayProps) {
       <div className='qr'>
         <QRCodeSVG
           value={url}
-          size={256}
+          size={qrSize}
           marginSize={4}
         />
       </div>
