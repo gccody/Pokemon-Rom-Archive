@@ -2,7 +2,7 @@
   "name": "pokemon-archive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gccody.github.io/Pokemon-Rom-Archive",
+  "homepage": "https://pokemon.gccody.games",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template-typescript": "1.2.0",
