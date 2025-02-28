@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>Pokemon Rom Hack 3ds Archive</h1>
+      <h1>Pokémon Rom Hack 3ds Archive</h1>
       <div className="content">
         <RomList onSelect={setSelectedUrl} setTitle={setTitle} />
         <QRCodeDisplay url={selectedUrl} title={title} />
