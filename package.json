@@ -5,6 +5,8 @@
   "homepage": "https://pokemon.gccody.games",
   "dependencies": {
     "axios": "^1.7.9",
+    "baseline-browser-mapping": "^2.10.0",
+    "caniuse-lite": "^1.0.30001776",
     "cra-template-typescript": "1.2.0",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
